@@ -1,0 +1,93 @@
+.normal-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    word-spacing: 1.5px;
+    
+}
+.spacer30{
+    height: 30px;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.carousel-inner{
+    margin-left: 150px;
+    width: 400px;
+    height: 400px;
+}
+.header-container-wrapper{
+    background-image: url("../images/coffeebg.jpeg");
+    height: 120px;
+    width: 1500px;   
+    display: flex;
+    column-gap: 100px;
+    
+}
+.header-container-wrapper> .header-menu{
+    display: flex;
+    column-gap: 45px;
+    justify-content: last baseline;
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
+    margin-top: 60px;
+}
+.header-container-wrapper>.header-menu a{
+color: whitesmoke;
+}
+.header-container-wrapper>.header-menu a:hover{
+text-decoration: rgb(250, 255, 240);
+}
+.header-container-wrapper> .header-address{
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    justify-content: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: whitesmoke;
+    margin-top: 50px;
+
+}
+
+.header-container-wrapper>.header-logo> .logo{
+    margin-left: 10px;
+    width: 150px;
+    height: 120px;
+}
+.about-logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+.staff-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.about-content-wrapper{
+    margin-left: 180px;
+    margin-right: 250px;
+}
+h4.staff-name{
+    color: blue;
+}
+.footer-banner> .footer-banner-logos> .footer-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.footer-banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/coffeebg.jpeg);
+    height: 100px;
+    width: 1500px;
+}
