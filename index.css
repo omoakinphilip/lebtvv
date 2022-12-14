@@ -19,7 +19,7 @@ body{
     height: 400px;
 }
 .header-container-wrapper{
-    background-image: url("../images/coffeebg.jpeg");
+    background-image: url("coffeebg.jpeg");
     height: 120px;
     width: 1500px;   
     display: flex;
@@ -87,7 +87,7 @@ h4.staff-name{
 .footer-banner{
     display: flex;
     justify-content: center;
-    background-image: url(../images/coffeebg.jpeg);
+    background-image: url(coffeebg.jpeg);
     height: 100px;
     width: 1500px;
 }
